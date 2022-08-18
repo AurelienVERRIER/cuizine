@@ -1,0 +1,132 @@
+header{
+    color: white;
+    background-image:url("../img/team/team.jpg");
+    box-shadow: 0 0 0 768px rgba(0,0,0,0.8) inset;
+    background-position: center;
+    font-family: "Courgette";
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header .titre h1{
+    align-items: center;
+    justify-content: center;
+}
+
+header .titre h2{
+    align-items: center;
+    justify-content: center;
+}
+
+.team_faces{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:70vw;
+    height: 50vh;
+}
+
+.team_faces img{
+    border-radius: 50%;
+    width:200px;
+    align-items: center;
+}
+
+.team_faces h2{
+   font-family: "Courgette";
+   font-weight: 700;
+   font-size: 2em;
+}
+
+.team_faces h3{
+    font-family: "Oswald";
+    font-weight: 200;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+
+
+
+@media (min-width: 768px) and (max-width:991px){
+
+    .team_faces{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .resume{
+        width:50%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px){
+    
+    header{
+        height: 60vh;
+    }
+
+    .titre{
+        margin-bottom: 150px;
+    }
+
+    .titre h1{
+        margin-bottom: 10px;
+    }
+        
+    .logo_blanc{
+        display: none;
+    }
+    
+    main{
+        margin-top: 0px;
+    }
+
+    .large_screen{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .team_faces{
+        width:75%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-right:0px;
+    }
+
+    .team_faces img{
+        width:8vw;
+    }
+
+
+    /* width à améliorer car affichage change quand l'écran est trop large */
+    .resume{
+        text-align: center;
+        height:20vh;
+        width:20vw;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .team_faces h2{
+        font-size: 2em;
+        margin-bottom: 10px;
+     }
+     
+    .team_faces h3{
+        font-size: 1.2em;
+        /* margin-bottom: 15px; */
+    }
+
+    
+
+}

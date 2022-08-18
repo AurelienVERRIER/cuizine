@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Courgette";
+  src: url("../fonts/Courgette-Regular.ttf");
+  }
+  @font-face {
+    font-family: "Oswald";
+    src: url("../fonts/Oswald-VariableFont_wght.ttf");
+   }
+  
+   header{
+    color: white;
+    background-image:url("../img/team/team.jpg");
+    background-size: cover;
+    box-shadow: 0 0 0 768px rgba(0,0,0,0.8) inset;
+    background-position: center;
+    font-family: "Courgette";
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+   main p {
+    font-family: "Oswald";
+    font-weight: 300;
+    text-align:justify;
+    margin-right:40px;
+  }
+
+  .Antoine_Zoom{
+    border-radius: 50%;
+    width:20vw;
+    float:left;
+  }
+
+
+  @media (min-width: 992px){
+    .Antoine_Zoom{
+      height:250px;
+      width:250px;
+      margin-right:20px;
+      margin-bottom:20px;;
+    }
+  }
+
+  
