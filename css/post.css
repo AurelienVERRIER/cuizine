@@ -7,12 +7,147 @@ header{
    color: white;
    background-image:url("../img/articles/suzette/suzette-small.jpg");
    background-size: cover;
-   box-shadow: 0 0 0 768px rgba(0,0,0,0.8) inset;
+   box-shadow: 0 0 0 768px rgba(0,0,0,0) inset;
    background-position: center;
    font-family: "Courgette";
    height: 50vh;
    display: flex;
    flex-direction: column;
+}
+
+.large_menu{
+  box-shadow: 0 0 0 768px rgba(0,0,0,0.8) inset;
+}
+
+.titre_post{
+  display:block;
+  max-width: 60vw;
+}
+
+.titre_post h2{
+   background-color: black;
+   text-align: center;
+   margin-top: 10vh;
+}
+
+header{
+  height:30vh;
+}
+
+main{
+  margin-top: 10px;
+  margin:10px 5px 10px 5px;
+}
+
+main h2{
+  font-family: "Courgette";
+  font-weight: 600;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+main p{
+  font-family: "Oswald";
+  font-weight: 300;
+}
+
+.auteur{
+  border: 1px solid gray;
+  padding: 5px;
+  margin-bottom: 50px;
+  display: flex;
+}
+.auteur img{
+  border-radius: 50%;
+  width:100px;
+  height:100px;
+  float:left;
+  margin:15px;
+}
+
+.layus{
+  margin:15px;
+}
+
+.auteur h3{
+  font-weight: 600;
+  font-size: x-large;
+}
+
+.commentaires{
+  display: flex;
+  flex-direction: column;
+}
+
+.commentaires h3{
+  font-size: large;
+  font-weight: 400;
+}
+
+.mail{
+  margin-bottom: 20px;
+}
+
+.nom{
+  margin-bottom: 20px;
+}
+
+.commentaire{
+  margin-bottom: 20px;
+}
+
+#mail {
+  width:90vw;
+  height:3em;
+  font-family: "Oswald";
+}
+
+#nom {
+  width:90vw;
+  height:3em;
+  font-family: "Oswald";
+}
+
+#commentaire {
+  width:90vw;
+  height:9em;
+  font-family: "Oswald";
+  text-align: left;
+  align-items: flex-start;
+}
+
+.blabla h4{
+  font-family: "Courgette";
+  font-weight: 600;
+  margin-left:5px;
+  margin-bottom:10px;
+}
+
+.blabla img{
+  width:75px;
+  height:75px;
+}
+
+.mathieu{
+  display:flex;
+  flex-direction:row;
+}
+
+.suzette{
+  display:flex;
+  flex-direction:row;
+}
+
+.haterz{
+  display:flex;
+  flex-direction:row;
+  margin-left:85px;
+}
+
+.haterz img{
+  /* opacity: 0.9;
+  filter: alpha(opacity=100);
+  background-color: #000; */
 }
 
 @media (min-width: 768px) and (max-width:991px){
@@ -31,4 +166,10 @@ header{
 
 
 @media (min-width: 992px){
+
+  main{
+    display:flex;
+    justify-content: center;
+  }
+
 }

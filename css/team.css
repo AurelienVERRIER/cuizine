@@ -12,6 +12,7 @@ header{
 header .titre h1{
     align-items: center;
     justify-content: center;
+    width:70vw;
 }
 
 header .titre h2{
@@ -24,13 +25,12 @@ header .titre h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width:70vw;
-    height: 50vh;
+    width:100vw;
 }
 
 .team_faces img{
     border-radius: 50%;
-    width:200px;
+    width:40vw;
     align-items: center;
 }
 
@@ -38,13 +38,20 @@ header .titre h2{
    font-family: "Courgette";
    font-weight: 700;
    font-size: 2em;
+   text-align: center;
 }
 
 .team_faces h3{
     font-family: "Oswald";
     font-weight: 200;
     font-size: 1.3em;
+    text-align: center;
     margin-bottom: 15px;
+}
+
+.large_screen{
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -56,12 +63,24 @@ header .titre h2{
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        width:70vw;
+        height: 50vh;
     }
 
     .resume{
         width:50%;
         margin-bottom: 10px;
         text-align: center;
+    }
+
+    .team_faces img{
+        border-radius: 50%;
+        width:200px;
+        align-items: center;
+    }
+
+    .team_faces{
+       /* height: 50vh; */
     }
 }
 
